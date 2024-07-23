@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INOVAÇÃO TechBus - Manufatura Avançada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #00bfa5;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #00897b;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #00bfa5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2em;
+        }
+        .section-title {
+            color: #00bfa5;
+            margin-bottom: 1em;
+        }
+        .section-content {
+            margin-bottom: 2em;
+        }
+        footer {
+            background-color: #00bfa5;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .contact-info {
+            margin-top: 1em;
+        }
+        .highlight {
+            color: #00897b;
+        }
+        .banner {
+            background-color: #00bfa5;
+            color: white;
+            padding: 2em;
+            text-align: center;
+            margin-bottom: 2em;
+        }
+        .card {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2em;
+            padding: 1em;
+            border-radius: 8px;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
+        .card-title {
+            color: #00bfa5;
+            font-size: 1.5em;
+            margin: 0.5em 0;
+        }
+        .card-content {
+            font-size: 1em;
+            color: #666;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.5em 1em;
+            background-color: #00bfa5;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #00897b;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        .team-member {
+            flex: 1 1 calc(33.333% - 1em);
+            background-color: #f0f0f0;
+            padding: 1em;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .team-member h3 {
+            color: #00bfa5;
+            margin: 0.5em 0;
+        }
+        .team-member p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>INOVAÇÃO TechBus - Manufatura Avançada</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#novidades">Novidades</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="banner">
+        <h2>Bem-vindo ao INOVAÇÃO TechBus!</h2>
+        <p>Explore as últimas inovações e projetos em Manufatura Avançada.</p>
+    </div>
+    <div class="container">
+        <section id="sobre">
+            <h2 class="section-title">Sobre o Projeto</h2>
+            <p class="section-content">O grupo desenvolveu um sistema de display para ônibus com o objetivo de fornecer informações essenciais aos passageiros, como o destino e a quantidade de assentos ocupados. Foram criados mecanismos para contagem de passageiros e alteração de mensagens no display. O projeto incluiu o design e a integração de um display LCD 16x2 controlado por uma placa Arduino, visando fácil instalação em ônibus urbanos e fornecimento de informações precisas em tempo real, melhorando a experiência no transporte público.</p>
+            <h3 class="section-title">Equipe</h3>
+            <ul class="section-content">
+                <li>Design - Joyce Luiza dos Santos Mamede</li>
+                <li>Design - Mariana Ament Marcheti</li>
+                <li>Eletrônica - José Elias Alencar</li>
+                <li>Programação - Daniel Souza de Almeida</li>
+                <li>Eletrônica - Pedro Murilo Gói Veiga</li>
+                <li>Documentação - Ana Beatriz de Souza</li>
+            </ul>
+        </section>
+        <section id="portfolio">
+            <h2 class="section-title">Portfólio</h2>
+            <div class="card">
+                <img src="https://via.placeholder.com/400x200" alt="Projeto 1">
+                <h3 class="card-title">Projeto 1</h3>
+                <p class="card-content">Descrição do projeto 1, destacando os principais pontos e resultados alcançados. Nossa primeira apresentação no 1º semestre foi um sucesso e no 2º semestre estamos querendo aperfeiçoar o projeto com reconhecimento facial.</p>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/400x200" alt="Projeto 2">
+                <h3 class="card-title">Projeto 2</h3>
+                <p class="card-content">Descrição do projeto 2, destacando os principais pontos e resultados alcançados. Estamos indo para o 2º semestre do curso com uma equipe de 6 pessoas: Ana Beatriz, Mariana, Joyce, José, Daniel e Pedro.</p>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+        </section>
+        <section id="novidades">
+            <h2 class="section-title">Novidades</h2>
+            <p class="section-content">Fique por dentro das últimas novidades e atualizações sobre o curso e os projetos de Manufatura Avançada.</p>
+            <div class="card">
+                <h3 class="card-title">2º Semestre - Novos Desafios</h3>
+                <p class="card-content">Estamos entrando no 2º semestre com o objetivo de aperfeiçoar nosso projeto utilizando tecnologias de reconhecimento facial. Nossa equipe está motivada e pronta para enfrentar novos desafios.</p>
+            </div>
+            <div class="card">
+                <h3 class="card-title">Conquistas do 1º Semestre</h3>
+                <p class="card-content">Concluímos o 1º semestre com sucesso, comprovado pela feira de soluções. Utilizamos conhecimentos das disciplinas:</p>
+                <ul class="card-content">
+                    <li>Sistemas Embarcados: Simulação e montagem de circuitos; Programação e prototipagem com Arduino em bancada e envio de mensagem/dados para monitor serial.</li>
+                    <li>Técnica de Leitura e Produção de Texto: Elaboração e formalização de documento.</li>
+                    <li>Desenho Técnico: Elaboração do desenho técnico do projeto e aprendizado sobre as normas ABNT.</li>
+                    <li>Algoritmos: Lógica de Programação e Fluxogramas.</li>
+                </ul>
+                <p class="card-content">As tecnologias utilizadas foram Tinkercad (simulação de circuito), Pipefy (organização estilo "Kanban") e IDE Arduino (aplicação da programação no protótipo).</p>
+            </div>
+        </section>
+        <section id="contato">
+            <h2 class="section-title">Contato</h2>
+            <p class="section-content">Para mais informações sobre o curso de Manufatura Avançada, entre em contato conosco:</p>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:bs02112004@gmail.com">bs02112004@gmail.com</a></p>
+                <p>Telefone: <a href="tel:+5512987035975">(12) 98703-5975</a></p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 INOVAÇÃO TechBus - Manufatura Avançada | Fatec</p>
+    </footer>
+</body>
+</html>
+
+
+
